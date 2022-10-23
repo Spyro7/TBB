@@ -1,0 +1,188 @@
+@media (max-width: 1343px) {
+    .credit-content{
+        flex-direction: column;   
+    }
+    .app{
+        text-align: center;
+    }
+    .app-block{
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}
+@media (max-width: 1172px) {
+    .valuta{
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+    }
+    .header-content{
+        justify-content: center;
+        text-align: center;
+    }
+    .card{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+    .card-block p{
+        justify-content: center;
+    }
+}
+@media (max-width: 828px) {
+    .header-nav-list{
+        flex-direction: column;
+        width: 100%;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.686);
+        position: absolute;
+        left: 0;
+        top: -100%;
+        gap: 50px;
+        z-index: 999;
+    }
+    .header-nav-list__link{
+        color: azure;
+        font-size: 25px;
+    }
+    .burger{
+        display: flex;
+        visibility: visible;
+    }
+    .header-content__image{
+        width: 100%;
+    }
+    .header-content-buttons{
+        padding: 20px 30px 15px;
+        gap: 50px;
+    }
+    .valuta img{
+        width: 100%;
+    }
+    .card img{
+        width: 100%;
+    }
+    .app-content:first-child{
+        width: 100%;
+    }
+    .app-content:first-child img{
+        width: 100%;
+    }
+    .app-content:last-child{
+        width: 100%;
+    }
+    .app-content-item{
+        width: 100%;
+        padding: 40px 10px;
+    }
+
+}
+@media (max-width: 672px) {
+    .header-content{
+        height: auto;
+    }
+    .header-content__title{
+        font-size: 36px;
+    }
+    .valuta-content{
+        justify-content: center;
+        align-items: center;
+    }
+    .valuta-content-info{
+        font-size: 18px;
+    }
+    .valuta-content-info img:first-child{
+        width: 40px;
+    }
+    .valuta-content-info img:last-child{
+        width: 50px;
+    }
+    .header-content-buttons{
+        padding: 15px 10px 10px;
+        gap: 30px;
+    }
+    .app-content:first-child{
+        padding: 25px 50px 0; 
+    }
+    .app-content:first-child h2{
+        font-size: 24px;
+        line-height: 1.4;
+    }
+    .app-button a{
+        padding: 15px 20px;
+        width: 45%;
+        height: auto;
+    }
+    .app-button a img{
+        width: 60%;
+    }
+}
+@media (max-width: 440px) {
+    .app-content-item img{
+        width: 80px;
+    }
+    .app-content-item h2{
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .header-content-buttons{
+        padding: 20px 20px 15px;
+        gap: 30px;
+        align-items: center;
+    }
+    .header-content-buttons__link img{
+        width: 120px;
+    }
+    .main-title{
+        font-size: 24px;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card-block{
+       width: 100%; 
+    }
+    .credit-block{
+        width: 100%;
+    }
+    .credit-content{
+        width: 100%;
+    }
+    .credit-content-block__item p{
+        max-width: 150px;
+        font-size: 14px;
+    }
+    .credit-content-block img{
+        position: absolute;
+        right: 20px;
+        width: 80px;
+    }
+    .footer{
+        gap: 0;
+    }
+    .footer h3{
+        font-size: 18px;
+    }
+    .footer a img{
+        width: 180px;
+    }
+}
+@media (max-width: 320px) {
+    .app-content-item{
+        width: 100%;
+        height: 110px;
+        padding: 20px 10px;
+    }
+    .app-content-item:last-child img{
+        padding-right: 20px;
+        height: 80px;
+    }
+    .app-content-item h2{
+        font-size: 16px;
+        line-height: 1;
+    }
+}
